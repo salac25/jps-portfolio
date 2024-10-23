@@ -1,0 +1,159 @@
+:root{
+--primary:#7FA1C3;
+--secondary:#D2E0FB;
+--darker:#03346E;
+--dark:#6482AD;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+/* NAV */
+#home{
+    position: relative;
+    top:-0;
+}
+nav{
+    background-color: var(--secondary);
+    height: 70px;
+    
+}
+nav ul{
+    align-items: center;
+    gap: 30px;
+}
+.nav-container{
+    background: var(--secondary);
+}
+.menuList li a,.logo a{
+    color: var(--darker);
+    transition: all 0.3s ease-in-out;
+}
+.menuList li a:hover{
+    color: var(--dark);
+}
+.logo a{
+    cursor: default;
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    color: var(--darker);
+}
+/* SECTION */
+section{
+    height: 100%;
+}
+
+
+/* PROFILE */
+.links{
+    height: 2.5rem;
+}
+.intro{
+    text-overflow: ellipsis;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* EXPERIENCE */
+
+.experience-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+.experience-content:hover{
+    transform: scale(0.9);
+    color: var(--dark)
+}
+.article-container{
+    border: 1px solid var(--darker);
+gap: 1rem;
+flex-wrap: wrap;
+}
+
+
+
+/* PROJECT */
+
+.project-article-container{
+    gap: 2rem;
+}
+.project-container{
+    padding: 1rem;
+    border: #6482AD solid 1px;
+    border-radius: 10px;
+}
+.project-img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: all 0.5s ease-out;
+   
+}
+.project-img:hover{
+    transform: scale(0.9);
+}
+.project-btn{
+    color: #fff !important;
+    background-color: var(--darker) !important;
+    border: 1px solid var(--dark);
+    gap: 1rem;
+
+}
+/* .project-btn:hover{
+    color: black !important;
+
+} */
+.git-btn{
+    color: black !important;
+    background: #fff !important;
+    border: 1px solid var(--dark);
+    transition: all 0.5s ease-in-out;
+}
+.git-btn:hover{
+    color: #fff !important;
+    background: var(--darker) !important;
+    border: 1px solid var(--dark);
+    transition: all 0.5s ease-in-out;
+}
+/* CONTACT */
+#contact{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+/* FOOTER */
+footer{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark);
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+footer ul li a{
+    color: var(--darker) !important;
+}
+footer ul li a:hover{
+    color: var(--primary) !important;
+    transition: all 0.3s ease-in-out;
+}
