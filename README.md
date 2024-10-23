@@ -8,8 +8,8 @@ I'm john, a budding web developer eager to learn and grow in the tech industry. 
 - 🤝 Open to collaboration and mentorship
 
 ## Projects
-- [Project 1](link-to-project): Brief description of the project.
-- [Project 2](link-to-project): Brief description of the project.
+- [Project 1]([link-to-project](https://dev-mystic-horizon-hotel.pantheonsite.io/)): Online Booking Hotel for travellers.
+- [Project 2]([link-to-project](https://dev-projectpharma.pantheonsite.io/)): A pharmacy website for franchizing.
 
 ## Connect with Me
 - [LinkedIn](www.linkedin.com/in/jp-salac)
