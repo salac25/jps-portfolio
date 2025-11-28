@@ -3,7 +3,7 @@
 I'm john, a budding web developer eager to learn and grow in the tech industry. I’m passionate about creating engaging web applications and exploring new technologies.
 
 ## About Me
-- 🌱 Currently learning HTML, CSS, JavaScript, and React
+- 🌱 Currently learning HTML, CSS, JavaScript.
 - 💼 Seeking job opportunities where I can contribute and further develop my skills
 - 🤝 Open to collaboration and mentorship
 
@@ -16,4 +16,5 @@ I'm john, a budding web developer eager to learn and grow in the tech industry. 
 - [Email](salacjp0@gmail.com)
 
 Thank you for visiting my profile! Let's connect and grow together!
+
 
